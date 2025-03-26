@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEHFIL - Amazing & Delicious Food</title>
+  <meta name="title" content="MEHFIL - Amazing & Delicious Food">
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body id="top">
+  <!-- preload at start -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">MEHFIL</p>
+  </div>
+
+  <!-- top bar -->
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Qasba Street, Buheira Corniche Road, Behind Nova Cinimas - Sharjah-UAE
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 9.00 am to 12.00 am</span>
+      </div>
+
+      <a href="#" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">06 865 4932</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">booking@mehfil.com</span>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- header section -->
+  <!-- This section contains the website's header, including the logo, navigation menu, and quick links 
+       like "Find A Table." It also provides contact details and an interactive menu toggle feature 
+       for responsive navigation. -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./images/logo.png" width="180" height="80" alt="MEHFIL - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="index.html" class="logo">
+          <img src="./images/logo.png" width="160" height="50" alt="MEHFIL - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Our Chefs</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="reservation.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Contact Us</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">Qasba Street, Buheira Corniche Road, Behind Nova Cinimas - Sharjah-UAE</address>
+
+          <p class="body-4 navbar-text">Open: 9.00 am - 12.00pm</p>
+
+          <a href="#" class="body-4 sidebar-link">booking@mehfil.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="#" class="body-1 contact-number hover-underline">
+            06 865 4932
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- testimonial section -->
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./images/testimonial-bg.png')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            Great food, friendly service, and a cozy vibe. Loved guava kulfi can’t wait to come back!
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- reservation section -->
+      <section class="reservation">
+        <div class="container">
+
+          <!-- Reservation Form -->
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <!-- Heading for Reservation -->
+              <h2 class="headline-1 text-center">Online Reservation</h2>
+
+              <p class="form-text text-center">
+                Booking request <a href="#" class="link">052 485 8674</a>
+                or fill out the order form
+              </p>
+
+              <!-- Name and Phone Input Fields -->
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field" required>
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field"
+                  required>
+              </div>
+
+              <!-- Person Selector, Date Picker, and Time Selector -->
+              <div class="input-wrapper">
+
+                <!-- Number of People Selector -->
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                  <select name="person" class="input-field" required>
+                    <option value="1-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                    <option value="8-person">8 Person</option>
+                  </select>
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <!-- Reservation Date Picker -->
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+                  <input type="date" name="reservation-date" class="input-field">
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <!-- Time Selector -->
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                  <select name="timings" class="input-field" required>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="10:00am">10 : 00 am</option>
+                    <option value="11:00am">11 : 00 am</option>
+                    <option value="12:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                    <option value="11:00pm">11 : 00 pm</option>
+                  </select>
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <!-- Message Text Area -->
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field" required></textarea>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Book A Table</span>
+                <span class="text text-2" aria-hidden="true">Book A Table</span>
+              </button>
+
+            </form>
+
+            <!-- Popup for Confirmation -->
+            <div id="popup" class="popup">
+              <p id="popup-message"></p>
+              <button id="popup-close" class="popup-button">Close</button>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="form-right text-center">
+              <h2 class="headline-1 text-center">Contact Us</h2>
+
+              <p class="contact-label">Booking Request</p>
+              <a href="#" class="body-1 contact-number hover-underline">052 485 8674</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+              <address class="body-4">
+                Qasba Street, Buheira Corniche Road<br>
+                Behind Nova Cinimas - Sharjah-UAE
+              </address>
+
+              <p class="contact-label">Monday to Sunday </p>
+              <p class="body-4">
+                9.00 am - 12.00 am
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- event section -->
+      <!-- This section showcases the latest and upcoming events with a visually appealing layout,
+           including event cards featuring images, titles, dates, and descriptions. -->
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="Join us for an unforgettable evening filled with delicious food and great vibes!."
+                    class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/01/2025</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Exciting Announcement!</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Join us for an unforgettable evening filled with delicious food and great vibes!
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="Good food, good mood – join us this 19/08/2024 at MEHFIL!" class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08"> 19/08/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Taste the Magic</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    "Good food, good mood – join us this 19/08/2024 at MEHFIL!"
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./images/event-3.jpg" width="350" height="450" loading="lazy"
+                    alt="Step into an evening of adventure at MEHFIL, where food meets artistry" class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">03/05/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Ignite Your Taste Buds!</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Step into an evening of adventure at MEFIL, where food meets artistry
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Blog</span>
+
+            <span class="text text-2" aria-hidden="true">View Our Blog</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- footer section -->
+  <!-- This section contains the footer with contact details, navigation links, 
+       social media links, and a subscription form. It also includes branding and operating hours. -->
+  <footer class="footer section has-bg-image text-center" style="background-image: url('./images/footer-bg.png')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="index.html" class="logo">
+            <img src="./images/logo.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Qasba Street, Buheira Corniche Road, Behind Nova Cinimas - Sharjah-UAE
+          </address>
+
+          <a href="" class="body-4 contact-link">booking@mehfil.com</a>
+
+          <a href="" class="body-4 contact-link">Booking Request : 06 865 4932</a>
+
+          <p class="body-4">
+            Open : 10:00 am - 05:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">25% Off.</span>
+          </p>
+
+          <form action="" class="subscription">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+          </li>
+
+          <li>
+            <a href="reservation.html" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2025 MEHFIL. All Rights Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- back to top -->
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- js link -->
+  <script src="index.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    // Reservation form submission
+    document.querySelector('.reservation-form').addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      const name = document.querySelector('[name="name"]').value.trim();
+      const phone_number = document.querySelector('[name="phone"]').value.trim();
+      const person = document.querySelector('[name="person"]').value;
+      const date = document.querySelector('[name="reservation-date"]').value;
+      const timing = document.querySelector('[name="timings"]').value;
+      const message = document.querySelector('[name="message"]').value.trim();
+
+      if (!name || !phone_number || !date || !timing || !message) {
+        showPopup("Please fill out all fields.");
+        return;
+      }
+
+      try {
+        const response = await fetch("https://multiple-device-application.onrender.com/", {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ name, phone_number, person, date, timing, message }),
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          showPopup("Reservation successful!");
+          event.target.reset(); // Optionally clear the form
+        } else {
+          const error = await response.json();
+          showPopup(`Error: ${error.message}`);
+        }
+      } catch (err) {
+        showPopup("An error occurred. Please try again later.");
+        console.error(err);
+      }
+    });
+
+    function showPopup(message) {
+      const popup = document.getElementById('popup');
+      const messageElement = document.getElementById('popup-message');
+      const closeButton = document.getElementById('popup-close');
+
+      messageElement.textContent = message;
+      popup.style.display = 'block';
+
+      closeButton.onclick = () => {
+        popup.style.display = 'none';
+      };
+    }
+
+  </script>
+
+  <!-- js for email form submission -->
+  <script>
+    document.querySelector('.subscription').addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      const email = document.querySelector('[name="email_address"]').value.trim();
+
+      if (!email) {
+        showPopup("Please provide a valid email address.");
+        return;
+      }
+
+      try {
+        const response = await fetch('http://localhost:3500/api/email', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ email }),
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          if (data.message === "Already subscribed") {
+            showPopup("This email is already subscribed.");
+          } else {
+            showPopup("Subscribed successfully!");
+            event.target.reset();
+          }
+        } else {
+          showPopup("This email is already subscribed.");
+        }
+      } catch (err) {
+        showPopup("An error occurred. Please try again later.");
+        console.error(err);
+      }
+    });
+
+    function showPopup(message) {
+      const popup = document.getElementById('popup');
+      const messageElement = document.getElementById('popup-message');
+      const closeButton = document.getElementById('popup-close');
+
+      messageElement.textContent = message;
+      popup.style.display = 'block';
+
+      closeButton.onclick = () => {
+        popup.style.display = 'none';
+      };
+    }
+
+  </script>
+
+</body>
+
+</html>
